@@ -1,0 +1,91 @@
+.header {
+  height: 85px;
+  background-color: #141416;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.headerIn {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.headerLeft {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  width: 425px;
+}
+.headerLeft .line {
+  width: 2px;
+  height: 40px;
+  background: #353945;
+  border-radius: 2px;
+  transform: rotate(180deg);
+}
+.menu ul {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.menu li a {
+  color: #353945;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+}
+.headerRight {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.headerRight .input {
+  position: relative;
+}
+.headerRight input {
+  width: 256px;
+  height: 40px;
+  border: 2px solid #353945;
+  border-radius: 8px;
+  padding: 10px 12px 10px 16px;
+  background-color: #00000000;
+}
+.headerRight .input svg {
+  position: absolute;
+  right: 13px;
+  top: 9px;
+}
+.btnUpload {
+  width: 80px;
+  height: 40px;
+  background: #3772ff;
+  border-radius: 90px;
+}
+.btnUpload a {
+  color: #fcfcfd;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+}
+.btnConnect {
+  width: 137px;
+  height: 40px;
+  border: 2px solid #777e91;
+  border-radius: 90px;
+  background-color: #00000000;
+}
+.btnConnect a {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  color: #fcfcfd;
+}
+.borderLine {
+    width: 1532px;
+    height: 2px;
+    background: #353945;
+    position: absolute;
+    top: 82px;
+}
