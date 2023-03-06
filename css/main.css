@@ -569,7 +569,6 @@
 .earnLeft {
   width: 480px;
   height: 288px;
-
 }
 .earnLeft .subTitle {
   font-weight: 700;
@@ -603,7 +602,7 @@
 .earnLeft .buttons .earnBtn2 {
   width: 160px;
   height: 48px;
-  border: 2px solid #777E91;
+  border: 2px solid #777e91;
   border-radius: 90px;
   background: #0000;
 }
@@ -611,4 +610,85 @@
   font-size: 16px;
   line-height: 16px;
   color: #fcfcfd;
+}
+.discoverLine.three {
+  margin: 0;
+  width: 100%;
+}
+.footer {
+  background: #141416;
+  padding: 50px 0;
+}
+.footerUp {
+  display: flex;
+  justify-content: space-between;
+}
+.footerUp h3 {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #fcfcfd;
+}
+.description{
+  transform: translateY(-41px);
+}
+
+.description svg {
+  transform: translate(-73px, 8px);}
+  .description h2 {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    color: #e6e8ec;
+    width: 256px;
+  }
+.links li a,
+.info li {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 30px;
+  color: #777e91;
+}
+.links ul,.info ul{
+  margin-top:25px;
+}
+.newsletter {
+  width: 352px;
+  height: 184px;
+}
+.newsletter p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #e6e8ec;
+  margin: 25px 0;
+}
+.newsletter input {
+  width: 352px;
+height: 48px;
+border: 2px solid #353945;
+border-radius: 90px;
+background: #0000;
+padding-left: 30px;
+}
+.newsletter svg{
+  transform: translate(300px, -40px);
+}
+.footerDown .lastTitle {
+  display: flex;
+  justify-content: space-between;
+}
+.lastTitle p {
+  width: 258px;
+  color: #777e91;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 20px;
+}
+.lastTitle .lastText {
+  width: 260px;
+  color: #fcfcfd;
+}
+.lastText span {
+  color: #3772ff;
 }
