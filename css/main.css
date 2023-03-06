@@ -301,7 +301,7 @@
 }
 .sellers {
   height: 663px;
-  background: #23262F;
+  background: #23262f;
   padding: 80px 0;
 }
 .sellersIn {
@@ -318,43 +318,41 @@
 }
 .sellersUp h3 {
   font-weight: 600;
-font-size: 24px;
-line-height: 32px;
-color: #777E91;
+  font-size: 24px;
+  line-height: 32px;
+  color: #777e91;
 }
 .sellersUp h2 {
   font-weight: 500;
-font-size: 40px;
-line-height: 48px;
-color: #FCFCFD;
+  font-size: 40px;
+  line-height: 48px;
+  color: #fcfcfd;
 }
 .choise {
   width: 256px;
-height: 72px;
-
+  height: 72px;
 }
 .choise p {
-  color: #B1B5C4;
+  color: #b1b5c4;
   font-weight: 700;
-font-size: 12px;
-line-height: 12px;
-text-transform: uppercase;
+  font-size: 12px;
+  line-height: 12px;
+  text-transform: uppercase;
 }
 .choise .days {
   width: 256px;
-height: 48px;
-border: 2px solid #353945;
-border-radius: 12px;
-padding: 8px;
-display: flex;
-justify-content: space-between;
-
+  height: 48px;
+  border: 2px solid #353945;
+  border-radius: 12px;
+  padding: 8px;
+  display: flex;
+  justify-content: space-between;
 }
 .days span {
-  color: #FCFCFD;
+  color: #fcfcfd;
   font-weight: 500;
-font-size: 14px;
-line-height: 24px;
+  font-size: 14px;
+  line-height: 24px;
 }
 .sellersDown {
   display: flex;
@@ -374,14 +372,14 @@ line-height: 24px;
 }
 .slide .slideLine {
   width: 150.4px;
-height: 1px;
-background: #353945;
-margin: 14px 0;
+  height: 1px;
+  background: #353945;
+  margin: 14px 0;
 }
 .hotBid {
   height: 826px;
   background: #141416;
-  padding:110px 0;
+  padding: 110px 0;
 }
 .hotBidIn {
   display: flex;
@@ -390,62 +388,62 @@ margin: 14px 0;
   flex-direction: column;
   gap: 60px;
 }
-.hotBidUp{
+.hotBidUp {
   display: flex;
   gap: 885px;
 }
 .hotBidUp h2 {
   font-weight: 500;
-font-size: 40px;
-line-height: 48px;
-color: #FCFCFD;
+  font-size: 40px;
+  line-height: 48px;
+  color: #fcfcfd;
 }
-.hotBidDown{
+.hotBidDown {
   display: flex;
   gap: 30px;
 }
-.hotBidDown .bidCard{
+.hotBidDown .bidCard {
   object-fit: cover;
 }
-.bidCard .title{
+.bidCard .title {
   display: flex;
   justify-content: space-between;
 }
-.bidCard .title p{
+.bidCard .title p {
   font-weight: 500;
-font-size: 16px;
-color: #FCFCFD;
+  font-size: 16px;
+  color: #fcfcfd;
 }
-.bidLine{
+.bidLine {
   width: 256px;
-height: 1px;
-background: #353945;
-border-radius: 1px;
-margin: 15px 0;
+  height: 1px;
+  background: #353945;
+  border-radius: 1px;
+  margin: 15px 0;
 }
 .bidCard .rectangle {
   width: 256px;
-height: 303px;
-background-color: #FCFCFD;
-border-radius:15px;
-display: flex;
-gap: 175px;
-flex-direction: column;
-align-items: center;
+  height: 303px;
+  background-color: #fcfcfd;
+  border-radius: 15px;
+  display: flex;
+  gap: 175px;
+  flex-direction: column;
+  align-items: center;
 }
 .bidCard img {
-  border-radius:15px;
+  border-radius: 15px;
 }
-.collection{
-  background: #23262F;
+.collection {
+  background: #23262f;
   height: 740px;
- padding: 100px 0;
- color: #FCFCFD;
+  padding: 100px 0;
+  color: #fcfcfd;
 }
 .collectionIn h2 {
   font-weight: 500;
-font-size: 40px;
-line-height: 48px;
+  font-size: 40px;
+  line-height: 48px;
 }
 .cardsColl {
   display: flex;
@@ -455,8 +453,162 @@ line-height: 48px;
 .cardColl {
   width: 370px;
 }
-.cardColl h3{
+.cardColl h3 {
   font-weight: 600;
   font-size: 24px;
   line-height: 32px;
+}
+.discover {
+  background: #141416;
+  padding: 90px 0;
+  color: #fcfcfd;
+}
+.discoverIn h2 {
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 48px;
+}
+.discoverFilter {
+  display: flex;
+  align-items: center;
+  height: 70px;
+  gap: 210px;
+}
+.discoverFilter .days {
+  width: 180px;
+  margin-top: 10px;
+}
+.discoverFilter ul {
+  display: flex;
+  gap: 20px;
+}
+.discoverFilter ul li {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  color: #777e91;
+  transform: translateY(-6px);
+  text-align: center;
+}
+.discoverFilter .active {
+  background: #353945;
+  border-radius: 100px;
+  width: 83px;
+  height: 28px;
+  color: #fcfcfd;
+  padding: 7px 9px;
+  transform: translateY(-14px);
+}
+.discoverFilter button {
+  width: 116px;
+  height: 48px;
+  background: #3772ff;
+  border-radius: 90px;
+  font-size: 16px;
+  color: #fcfcfd;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.discoverLine {
+  background: #353945;
+  height: 1px;
+  width: 1200px;
+  margin: 20px 0;
+}
+.discoverFilter2 {
+  display: flex;
+  gap: 60px;
+  height: 70px;
+  margin: 20px 0;
+}
+.discoverItems {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 60px;
+}
+.discoverItem .miniTitle {
+  display: flex;
+  justify-content: space-between;
+}
+.discoverItem .miniTitle h3 {
+  font-weight: 500;
+  font-size: 16px;
+}
+.discoverDown {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.discoverDown button {
+  width: 132px;
+  height: 40px;
+  border: 2px solid #777e91;
+  border-radius: 90px;
+  background: #0000;
+  color: #fcfcfd;
+  font-size: 14px;
+  margin: 40px 0;
+}
+.discoverDown svg {
+  transform: translate(4px, 4px);
+}
+.discoverLine.two {
+  width: 100%;
+}
+.earn {
+  background-color: #141416;
+  padding: 70px 0;
+}
+.earnIn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.earnLeft {
+  width: 480px;
+  height: 288px;
+
+}
+.earnLeft .subTitle {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 16px;
+  color: #777e91;
+  text-transform: uppercase;
+}
+.earnLeft h2 {
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 64px;
+  color: #fcfcfd;
+  width: 545px;
+  margin: 20px 0;
+}
+.earnLeft .buttons {
+  display: flex;
+  gap: 30px;
+  font-size: 16px;
+  line-height: 16px;
+  color: #fcfcfd;
+  margin-top: 30px;
+}
+.earnLeft .buttons .earnBtn {
+  width: 119px;
+  height: 48px;
+  background: #3772ff;
+  border-radius: 90px;
+}
+.earnLeft .buttons .earnBtn2 {
+  width: 160px;
+  height: 48px;
+  border: 2px solid #777E91;
+  border-radius: 90px;
+  background: #0000;
+}
+.earnLeft .buttons span {
+  font-size: 16px;
+  line-height: 16px;
+  color: #fcfcfd;
 }
