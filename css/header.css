@@ -79,7 +79,7 @@
   align-items: center;
   justify-content: center;
 }
-.btnConnect span{
+.btnConnect span , a{
   font-weight: 700;
   font-size: 14px;
   color: #fcfcfd;
