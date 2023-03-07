@@ -70,17 +70,22 @@
   line-height: 16px;
 }
 .btnConnect {
-  width: 137px;
+  width: 150px;
   height: 40px;
   border: 2px solid #777e91;
   border-radius: 90px;
   background-color: #00000000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-.btnConnect a {
+.btnConnect span{
   font-weight: 700;
   font-size: 14px;
-  line-height: 16px;
   color: #fcfcfd;
+}
+.btnConnect .subtitle {
+  color: #45B36B;
 }
 .borderLine {
     width: 1525px;
