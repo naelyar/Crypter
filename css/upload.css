@@ -1,0 +1,98 @@
+.main {
+  background: #141416;
+  padding: 30px 0;
+}
+.uploadNav {
+  height: 90px;
+}
+.navIn {
+  display: flex;
+  justify-content: space-between;
+}
+.btn {
+  width: 153px;
+  height: 40px;
+  border: 2px solid #353945;
+  border-radius: 90px;
+  background: #0000;
+  margin-bottom: 20px;
+}
+.btn svg {
+  transform: translateY(4px);
+}
+.link {
+  display: flex;
+  gap: 20px;
+}
+.link p {
+  color: #777e91;
+  font-size: 15px;
+  font-weight: 500;
+}
+.link .activePage {
+  color: #fff;
+}
+.uploadLine {
+  width: 100%;
+  height: 2px;
+  background: #353945;
+}
+.uploadIn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  gap: 50px;
+}
+.uploadIn p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  font-family: 'Poppins', sans-serif;
+  color: #777e91;
+}
+.uploadUp {
+  width: 736px;
+}
+.uploadUp h2 {
+  color: #fcfcfd;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 56px;
+}
+.uploadUp span {
+    color: #fcfcfd;
+    font-size: 17px;
+}
+.uploadDown {
+  display: flex;
+  gap: 40px;
+}
+.uploadDown .item {
+  width: 352px;
+  height: 360px;
+  border: 1px solid #353945;
+  border-radius: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 30px;
+}
+.item button {
+  width: 137px;
+  height: 40px;
+  border-radius: 90px;
+  background: none;
+}
+.item .btn1 {
+  border: 2px solid #353945;
+}
+.item .btn2 {
+  background: #3772ff;
+}
+.item span {
+  color: #fcfcfd;
+  font-size: 16px;
+}

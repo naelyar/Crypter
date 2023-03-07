@@ -81,4 +81,10 @@
   .lastText span {
     color: #3772ff;
   }
+  .discoverLine {
+    width: 100%;
+    height: 1px;
+    background: #353945;
+    margin: 20px 0;
+  }
   
