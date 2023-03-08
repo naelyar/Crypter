@@ -1,0 +1,198 @@
+.main {
+  background: #141416;
+  padding: 80px 0px 0px;
+}
+.miniTitle {
+  font-weight: 700;
+  font-size: 12px;
+  color: #777e91;
+}
+.faq {
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 56px;
+  color: #fcfcfd;
+  margin: 20px 0;
+}
+.subContent {
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+  color: #e6e8ec;
+  font-weight: 400;
+  width: 40%;
+}
+.subContent span {
+    color: #3772FF;
+}
+.mainTitleDown {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px 0;
+}
+.menuTitle {
+  width: 200px;
+}
+.menuTitle li {
+  line-height: 50px;
+  font-weight: 500;
+  font-size: 14px;
+  color: #777e91;
+}
+.menuTitle .general {
+  color: #fcfcfd;
+}
+.accordion {
+  width: 735px;
+  overflow: hidden;
+}
+.inputNone {
+  display: none;
+}
+.labelLine {
+  border-top: 1px solid #353945;
+  width: 100%;
+}
+label {
+  display: block;
+  position: relative;
+  border-bottom: 1px solid #353945;
+  padding: 30px;
+  font-weight: 500;
+  font-size: 16px;
+  color: #fcfcfd;
+}
+label::after {
+  position: absolute;
+  content: '^';
+  color: #353945;
+  right: 20px;
+}
+.text {
+  font-size: 15px;
+  color: #353945;
+  line-height: 24px;
+  transform: scaleY(0);
+  height: 0;
+  transition: transform 0.5s ease-out;
+  transform-origin: top;
+}
+.btnAcc {
+  width: 117px;
+  height: 40px;
+  border: 2px solid #777e91;
+  border-radius: 100px;
+  font-size: 14px;
+  line-height: 16px;
+  color: #f4f5f6;
+  background: none;
+  transform: scaleY(0);
+  height: 0;
+  transition: transform 0.5s ease-out;
+  transform-origin: top;
+}
+#radio1:checked ~ .btnAcc {
+  height: 40px;
+  transform: scaleY(1);
+  margin-left: 20px;
+}
+#radio1:checked ~ .text1 {
+  height: max-content;
+  transform: scaleY(1);
+  padding: 20px;
+}
+
+#radio2:checked ~ .text2 {
+  height: max-content;
+  transform: scaleY(1);
+  padding: 20px;
+}
+#radio3:checked ~ .text3 {
+  height: max-content;
+  transform: scaleY(1);
+  padding: 20px;
+}
+#radio4:checked ~ .text4 {
+  height: max-content;
+  transform: scaleY(1);
+  padding: 20px;
+}
+#radio5:checked ~ .text5 {
+  height: max-content;
+  transform: scaleY(1);
+  padding: 20px;
+}
+
+#radio1:checked ~ .label1::after {
+  content: '^';
+}
+#radio2:checked ~ .label2::after {
+  content: '^';
+}
+#radio3:checked ~ .label3::after {
+  content: '^';
+}
+#radio4:checked ~ .label4::after {
+  content: '^';
+}
+#radio5:checked ~ .label5::after {
+  content: '^';
+}
+.hotBid {
+  height: 826px;
+  background: #141416;
+  padding: 110px 0;
+}
+.hotBidIn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 60px;
+}
+.hotBidUp {
+  display: flex;
+  gap: 885px;
+}
+.hotBidUp h2 {
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 48px;
+  color: #fcfcfd;
+}
+.hotBidDown {
+  display: flex;
+  gap: 30px;
+}
+.hotBidDown .bidCard {
+  object-fit: cover;
+}
+.bidCard .title {
+  display: flex;
+  justify-content: space-between;
+}
+.bidCard .title p {
+  font-weight: 500;
+  font-size: 16px;
+  color: #fcfcfd;
+}
+.bidLine {
+  width: 256px;
+  height: 1px;
+  background: #353945;
+  border-radius: 1px;
+  margin: 15px 0;
+}
+.bidCard .rectangle {
+  width: 256px;
+  height: 303px;
+  background-color: #fcfcfd;
+  border-radius: 15px;
+  display: flex;
+  gap: 175px;
+  flex-direction: column;
+  align-items: center;
+}
+.bidCard img {
+  border-radius: 15px;
+}
