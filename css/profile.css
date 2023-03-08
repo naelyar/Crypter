@@ -1,0 +1,9 @@
+.main{}
+.backImg{
+    background: url('../assets/image-from-rawpixel-id-597407-jpeg\ 1_11zon.png')no-repeat center;
+    background-size: cover;
+    height: 60vh;
+    display: flex;
+    justify-items: flex-end;
+    align-items: flex-end;
+}
