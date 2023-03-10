@@ -1,0 +1,202 @@
+.main {
+  background: #141416;
+  padding: 30px 0;
+}
+.uploadNav {
+  height: 90px;
+}
+.navIn {
+  display: flex;
+  justify-content: space-between;
+}
+.btn {
+  width: 153px;
+  height: 40px;
+  border: 2px solid #353945;
+  border-radius: 90px;
+  background: #0000;
+  margin-bottom: 20px;
+}
+.btn svg {
+  transform: translateY(4px);
+}
+.link {
+  display: flex;
+  gap: 20px;
+}
+.link p {
+  color: #777e91;
+  font-size: 15px;
+  font-weight: 500;
+}
+.link .activePage {
+  color: #fff;
+}
+.uploadLine {
+  width: 100%;
+  height: 2px;
+  background: #353945;
+}
+.editGen {
+  width: 800px;
+  margin: 0 auto;
+}
+.edit h2 {
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 56px;
+  color: #fcfcfd;
+}
+.editText {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #777e91;
+}
+.editSpan {
+  color: #fcfcfd;
+  font-weight: 500;
+  font-size: 16px;
+}
+.editIn {
+  padding: 60px 0;
+  display: flex;
+  gap: 25px;
+}
+.editLeft {
+  width: 352px;
+  height: 148px;
+  display: flex;
+  gap: 20px;
+  font-family: 'Poppins', sans-serif;
+}
+.dataProfile h3 {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #fcfcfd;
+}
+.dataProfile p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #777e91;
+  margin: 15px 0;
+}
+.dataProfile button {
+  width: 80px;
+  height: 40px;
+  border: 2px solid #353945;
+  border-radius: 90px;
+  background: none;
+}
+.accInfo {
+  width: 352px;
+}
+.accInfo h3 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #fcfcfd;
+}
+.form1 {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.form1 label {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 12px;
+  text-transform: uppercase;
+  color: #353945;
+  transform: translateY(12px);
+}
+.form1 input,
+textarea {
+  height: 48px;
+  border: 2px solid #353945;
+  border-radius: 12px;
+  background: none;
+  padding: 20px;
+}
+input::placeholder, textarea::placeholder {
+  color: #353945;
+}
+.form1 textarea {
+  height: 96px;
+}
+.inputWithBtn {
+  position: relative;
+}
+.inputWithBtn .inputTwitter {
+  width: 100%;
+}
+.inputTwitter:first-letter::placeholder{
+  color: #fcfcfd;
+}
+.form1 .btnV {
+  width: 120px;
+  height: 32px;
+  border: 2px solid #353945;
+  border-radius: 90px;
+  background: none;
+  position: absolute;
+  top: 7px;
+  right: 15px;
+}
+.btnV span {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  color: #fcfcfd;
+}
+.formTitle {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #777e91;
+  margin: 30px 0;
+}
+.btnAdd {
+  width: 230px;
+  height: 40px;
+  border: 2px solid #353945;
+  border-radius: 90px;
+  background: none;
+  color: #fcfcfd;
+  font-size: 14px;
+}
+.btnAdd svg{
+  transform: translateY(2px);
+}
+.formLine {
+  width: 100%;
+  height: 1px;
+  background: #353945;
+  margin: 25px 0;
+}
+.formBtns {
+  display: flex;
+  gap: 30px;
+}
+.formBtns span {
+  color: #fcfcfd;
+  font-size: 16px;
+}
+.formBtns .btnUpload.btn1 {
+  width: 158px;
+  border: none;
+}
+.formBtns .btn2 {
+  border: none;
+  background: none;
+}
+.formBtns .btn2 svg {
+  transform: translateY(7px);
+}
