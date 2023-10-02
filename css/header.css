@@ -12,38 +12,11 @@
   align-items: center;
   justify-content: space-between;
 }
-@media(max-width:870px){
-  .headerIn{
-    display: flex;
-    align-items: center;
-    gap: 30px;
-  }
-}
 .headerLeft {
   display: flex;
   align-items: center;
   gap: 30px;
   width: 425px;
-}
-@media(max-width:870px){
-  .headerLeft{
-    width: 200px;
-  }
-}
-.logo svg{
-  width: 200px;
-  height: 81px;
-}
-@media(max-width:870px){
-  .logo svg{
-    width:120px;
-    height: 90%;
-  }
-}
-@media(max-width:800px){
-  .logo svg{
-    width:100px;
-  }
 }
 .headerLeft .line {
   width: 2px;
@@ -51,11 +24,6 @@
   background: #353945;
   border-radius: 2px;
   transform: rotate(180deg);
-}
-@media(max-width:1024px){
-  .headerLeft .line {
-    display: none;
-  }
 }
 .menu ul {
   display: flex;
@@ -67,11 +35,6 @@
   font-weight: 700;
   font-size: 14px;
   line-height: 16px;
-}
-@media(max-width:1024px){
-  .menu li a {
-    display: none;
-  }
 }
 .headerRight {
   display: flex;
@@ -88,11 +51,6 @@
   border-radius: 8px;
   padding: 10px 12px 10px 16px;
   background-color: #00000000;
-}
-@media(max-width:800px){
-  .headerRight input{
-    width: 100%;
-  }
 }
 .headerRight .input svg {
   position: absolute;
@@ -111,11 +69,6 @@
   font-size: 14px;
   line-height: 16px;
 }
-@media(max-width:767px){
-  .btnUpload a {
-    font-size: 11px;
-  }
-}
 .btnConnect {
   width: 150px;
   height: 40px;
@@ -132,11 +85,6 @@
   font-size: 14px;
   color: #fcfcfd;
 }
-@media(max-width:767px){
-  .btnConnect span , a {
-    font-size: 11px;
-  }
-}
 .btnConnect .subtitle {
   color: #45B36B;
 }
@@ -147,59 +95,3 @@
     position: absolute;
     top: 82px;
 }
-@media(max-width:1024px){
-  .borderLine{
-    width: 100%;
-  }
-}
-.hamburger {
-  /* display: none; */
-  cursor: pointer;
-}
-.bar{
-  display: block;
-  width: 21px;
-  height: 3px;
-  margin: 5px auto ;
-  -webkit-transition: all 0.3s ease-in-out;
-  transition:  all 0.3s ease-in-out;
-  background-color: #777E91;
-  border-radius: 10px;
-}
-@media(max-width:500px) {
-  .hamburger {
-    display: block;
-    width: 25px;
-    height: 25px;
-    transform: translateX(30px);
-  }
-  .hamburger.active .bar:nth-child(2) {
-    opacity: 0;
-  }
-  .hamburger.active .bar:nth-child(1) {
-    transform:translateY(8px) rotate(45deg);
-  }
-  .hamburger.active .bar:nth-child(3) {
-    transform:translateY(-8px) rotate(-45deg);
-  }
-  .headerRight {
-    position: fixed;
-    left: -100%;
-    top: 0px;
-    gap: 0;
-    flex-direction: column;
-    background-color: #222222;
-    width: 100%;
-    height: 90%;
-    text-align: center;
-    transition: 0.3s;
-    margin: 0 auto;
-  }
-  .headerRight.active {
-    left: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-}
-
